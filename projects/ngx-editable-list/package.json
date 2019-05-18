@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Romjkez/editable-list"
+    "url": "https://github.com/Romjkez/editable-list-demo/projects/ngx-editable-list"
   },
   "peerDependencies": {
     "@angular/common": "^7.0.0",
