@@ -1,4 +1,4 @@
-# editable-list
+# ngx-editable-list
 Component for displaying and editing lists of items.
 
 It gets an **array of *EditableListItem*** and displays items, showing **Edit** and **Delete** buttons right after each one.
