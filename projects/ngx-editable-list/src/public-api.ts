@@ -1,5 +1,5 @@
 /*
- * Public API Surface of editable-list
+ * Public API Surface of ngx-editable-list
  */
 
 export * from './lib/components/editable-list/editable-list.component';

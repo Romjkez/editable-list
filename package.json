@@ -1,5 +1,5 @@
 {
-  "name": "editable-list",
+  "name": "ngx-editable-list",
   "version": "0.0.0",
   "author": {
     "email": "meshkov.ra@ya.ru",
@@ -12,8 +12,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build editable-list",
-    "npm_pack": "cd dist/editable-list && npm pack",
+    "build_lib": "ng build ngx-editable-list",
+    "npm_pack": "cd dist/ngx-editable-list && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
   "private": true,
@@ -29,7 +29,6 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
-    "ngx-pagination": "^3.2.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"

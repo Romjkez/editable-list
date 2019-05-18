@@ -129,33 +129,33 @@
         }
       }
     },
-    "editable-list": {
-      "root": "projects/editable-list",
-      "sourceRoot": "projects/editable-list/src",
+    "ngx-editable-list": {
+      "root": "projects/ngx-editable-list",
+      "sourceRoot": "projects/ngx-editable-list/src",
       "projectType": "library",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/editable-list/tsconfig.lib.json",
-            "project": "projects/editable-list/ng-package.json"
+            "tsConfig": "projects/ngx-editable-list/tsconfig.lib.json",
+            "project": "projects/ngx-editable-list/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/editable-list/src/test.ts",
-            "tsConfig": "projects/editable-list/tsconfig.spec.json",
-            "karmaConfig": "projects/editable-list/karma.conf.js"
+            "main": "projects/ngx-editable-list/src/test.ts",
+            "tsConfig": "projects/ngx-editable-list/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-editable-list/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/editable-list/tsconfig.lib.json",
-              "projects/editable-list/tsconfig.spec.json"
+              "projects/ngx-editable-list/tsconfig.lib.json",
+              "projects/ngx-editable-list/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

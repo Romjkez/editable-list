@@ -1,19 +1,31 @@
-# editable-list
-Component for displaying and editing lists of items.
+# ngx-editable-list
+Angular 7 component for displaying and editing lists of items.
 
 It gets an **array of *EditableListItem*** and displays items, showing **Edit** and **Delete** buttons right after each one.
 You can also add an item by clicking **Add** button
-![List screenshot](https://i.imgur.com/U34GS46.png)
+![screenshot](https://i.imgur.com/U34GS46.png)
 ##Installation
-1) ```npm install editable-list --save```  
-2) Import ```EditableListModule``` to your AppModule(or other key module like CoreModule)
-3) *(optional) Insert this Sass styles in your global styles file(usually it's ```src/styles.scss```)    
+Install via NPM:
+```bash
+npm install ngx-editable-list --save
+```
+Import ```EditableListModule``` into your application:
+```
+import { EditableListModule } from 'ngx-editable-list';
+
+@NgModule({
+  ...
+  imports: [EditableListModule]
+  ...
+})
+``` 
+*Insert these Sass styles in your global styles file(usually it's ```src/styles.scss```): 
 ```sass
  @import '~@angular/material/theming';
  @include mat-core();
  
- $candy-app-primary: mat-palette($mat-deep-purple); // you can change color
- $candy-app-accent: mat-palette($mat-amber);
+ $candy-app-primary: mat-palette($mat-deep-purple); // you may change primary color
+ $candy-app-accent: mat-palette($mat-amber); // you may change secondary color
  $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent);
  
  @include mat-core-theme($candy-app-theme);
