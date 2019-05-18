@@ -9,7 +9,7 @@ export interface EditableListItem {
 }
 
 @Component({
-  selector: 'lib-editable-list',
+  selector: 'ngx-editable-list',
   templateUrl: './editable-list.component.html',
   styleUrls: ['./editable-list.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush

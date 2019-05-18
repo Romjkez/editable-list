@@ -1,6 +1,6 @@
 {
   "name": "editable-list",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "author": {
     "name": "Roman Meshkov",
     "email": "meshkov.ra@ya.ru"
@@ -8,14 +8,24 @@
   "description": "Angular component for displaying list of items and editing it",
   "keywords": [
     "angular",
-    "list"
+    "list",
+    "editable-list"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Romjkez/editable-list"
+  },
   "peerDependencies": {
-    "@angular/common": "^7.2.0",
-    "@angular/core": "^7.2.0",
-    "@angular/forms": "7.2.0",
-    "@angular/platform-browser": "^7.2.0",
-    "@angular/material": "7.3.7"
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/forms": "7.0.0",
+    "@angular/platform-browser": "^7.0.0",
+    "@angular/material": "^7.0.0"
+  },
+  "dependencies": {
+    "@angular/material": "^7.0.0",
+    "rxjs": "^6.0.0",
+    "@angular/cdk": "^7.0.0"
   },
   "license": "MIT"
 }

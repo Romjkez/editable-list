@@ -3,5 +3,10 @@
   "dest": "../../dist/editable-list",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "@angular/material",
+    "@angular/cdk",
+    "rxjs"
+  ]
 }
