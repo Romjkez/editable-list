@@ -5,7 +5,7 @@ It gets an **array of *EditableListItem*** and displays items, showing **Edit** 
 You can also add an item by clicking **Add** button
 ![List screenshot](https://i.imgur.com/U34GS46.png)
 ##Installation
-1) ```npm install <name> --save```  
+1) ```npm install editable-list --save```  
 2) Import ```EditableListModule``` to your AppModule(or other key module like CoreModule)
 3) *(optional) Insert this Sass styles in your global styles file(usually it's ```src/styles.scss```)    
 ```sass
