@@ -64,4 +64,3 @@ Events are useful for synchronizing list changes with your backend.
 This is my first open-source sharing, so code quality or documentation could have some problems.
 
 Feel free to pull request or email me: meshkov.ra@ya.ru
-

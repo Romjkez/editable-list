@@ -1,8 +1,9 @@
-#ngx-editable-list
+# editable-list
 Component for displaying and editing lists of items.
 
 It gets an **array of *EditableListItem*** and displays items, showing **Edit** and **Delete** buttons right after each one.
 You can also add an item by clicking **Add** button
+![List screenshot](https://i.imgur.com/U34GS46.png)
 ##Installation
 1) ```npm install <name> --save```  
 2) Import ```EditableListModule``` to your AppModule(or other key module like CoreModule)
@@ -59,7 +60,7 @@ Events are useful for synchronizing list changes with your backend.
 | edited | EditableListItem |
 | removed | EditableListItem |
 
-####Questions? Suggestions?
+#### Questions? Suggestions?
 This is my first open-source sharing, so code quality or documentation could have some problems.
 
 Feel free to pull request or email me: meshkov.ra@ya.ru
