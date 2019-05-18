@@ -1,4 +1,4 @@
-#editable-list
+# editable-list
 Component for displaying and editing lists of items.
 
 It gets an **array of *EditableListItem*** and displays items, showing **Edit** and **Delete** buttons right after each one.
@@ -60,7 +60,7 @@ Events are useful for synchronizing list changes with your backend.
 | edited | EditableListItem |
 | removed | EditableListItem |
 
-####Questions? Suggestions?
+#### Questions? Suggestions?
 This is my first open-source sharing, so code quality or documentation could have some problems.
 
 Feel free to pull request or email me: meshkov.ra@ya.ru
